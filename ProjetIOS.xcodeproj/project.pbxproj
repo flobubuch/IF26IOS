@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B0002F6239FC33C0040BF58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0002F5239FC33C0040BF58 /* AppDelegate.swift */; };
+		1B0002F8239FC33C0040BF58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0002F7239FC33C0040BF58 /* SceneDelegate.swift */; };
+		1B0002FA239FC33C0040BF58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0002F9239FC33C0040BF58 /* ViewController.swift */; };
+		1B0002FD239FC33C0040BF58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B0002FB239FC33C0040BF58 /* Main.storyboard */; };
+		1B000300239FC33C0040BF58 /* ProjetIOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B0002FE239FC33C0040BF58 /* ProjetIOS.xcdatamodeld */; };
+		1B000302239FC3400040BF58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B000301239FC3400040BF58 /* Assets.xcassets */; };
+		1B000305239FC3400040BF58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B000303239FC3400040BF58 /* LaunchScreen.storyboard */; };
+		1B00030E239FD3BC0040BF58 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B00030D239FD3BC0040BF58 /* SignInViewController.swift */; };
+		1B00031823A16C3D0040BF58 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B00031723A16C3D0040BF58 /* MyTabBarController.swift */; };
+		1B00031A23A16CCE0040BF58 /* HomeSceneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B00031923A16CCE0040BF58 /* HomeSceneController.swift */; };
+		1B00031C23A16D3D0040BF58 /* NewSceneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B00031B23A16D3D0040BF58 /* NewSceneController.swift */; };
+		1B00031E23A16D520040BF58 /* SearchSceneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B00031D23A16D520040BF58 /* SearchSceneController.swift */; };
+		1B00032023A16D630040BF58 /* ProfileSceneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B00031F23A16D630040BF58 /* ProfileSceneController.swift */; };
+		1B159C1423B01CA20041A2CF /* NewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B159C1323B01CA20041A2CF /* NewCollectionViewController.swift */; };
+		1B159C1623B0E3720041A2CF /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B159C1523B0E3720041A2CF /* MenuBar.swift */; };
+		1B1ACE4E23BCE78E00FA7D5F /* PopUpPlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1ACE4D23BCE78E00FA7D5F /* PopUpPlaylistViewController.swift */; };
+		1B1ACE5023BCE80D00FA7D5F /* PopUpSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1ACE4F23BCE80D00FA7D5F /* PopUpSecondViewController.swift */; };
+		1B3DBA3B23BDFF4A00F3985F /* DeletePlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3DBA3A23BDFF4A00F3985F /* DeletePlaylistViewController.swift */; };
+		1B3DBA3D23BF3B4E00F3985F /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3DBA3C23BF3B4E00F3985F /* Protocol.swift */; };
+		1B3DBA3F23BFB06600F3985F /* SelectUserPicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3DBA3E23BFB06600F3985F /* SelectUserPicViewController.swift */; };
+		1B3DBA4123C1424F00F3985F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3DBA4023C1424F00F3985F /* SearchViewController.swift */; };
+		1B6766B523A5555E00ED2BC3 /* TestCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6766B423A5555E00ED2BC3 /* TestCollectionViewController.swift */; };
+		1B6766BA23A5599600ED2BC3 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6766B923A5599600ED2BC3 /* CategoryCell.swift */; };
+		1B7E959C23A922B200773BF0 /* SettingUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E959B23A922B200773BF0 /* SettingUserDefaults.swift */; };
+		1B7E95A223AA1B0C00773BF0 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E95A123AA1B0C00773BF0 /* Playlist.swift */; };
+		1B7E95A423AA1B3800773BF0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E95A323AA1B3800773BF0 /* User.swift */; };
+		1B9D58B123AAB38D00274923 /* ConcertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D58B023AAB38D00274923 /* ConcertViewController.swift */; };
+		1B9D58B323AAB39E00274923 /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D58B223AAB39E00274923 /* PlaylistViewController.swift */; };
+		1B9D58B723AABB0F00274923 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D58B623AABB0F00274923 /* Album.swift */; };
+		1B9D58B923AABB1D00274923 /* Single.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D58B823AABB1D00274923 /* Single.swift */; };
+		1B9D58BB23AABB3200274923 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D58BA23AABB3200274923 /* Artist.swift */; };
+		1B9D58BD23AABBFB00274923 /* Concert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D58BC23AABBFB00274923 /* Concert.swift */; };
+		1BB8253B23A3D68D00B4D1D7 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB8253A23A3D68D00B4D1D7 /* PaddingLabel.swift */; };
+		1BC437F623B62A25005ADCEA /* CollectionViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC437F523B62A25005ADCEA /* CollectionViews.swift */; };
+		1BCBE11123AE9F6D007549B7 /* ArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCBE11023AE9F6D007549B7 /* ArtistViewController.swift */; };
+		1BCBE11323AE9F79007549B7 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCBE11223AE9F79007549B7 /* AlbumViewController.swift */; };
+		1BCBE11523AE9F84007549B7 /* SingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCBE11423AE9F84007549B7 /* SingleViewController.swift */; };
+		1BD9429023C505F900D7C5B1 /* arianagrande_notears_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1BD9428F23C505F900D7C5B1 /* arianagrande_notears_video.mp4 */; };
+		1BD9429323C6072D00D7C5B1 /* arianagrande_bio.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BD9429223C6072D00D7C5B1 /* arianagrande_bio.txt */; };
+		1BD9429723C6074900D7C5B1 /* vegedream_bio.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BD9429623C6074900D7C5B1 /* vegedream_bio.txt */; };
+		1BD9429923C6075400D7C5B1 /* betternowpostmalonelyrics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BD9429823C6075400D7C5B1 /* betternowpostmalonelyrics.txt */; };
+		1BD9429B23C678D400D7C5B1 /* postmalone_sunflower_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1BD9429A23C678D300D7C5B1 /* postmalone_sunflower_video.mp4 */; };
+		1BD9429D23C7B82700D7C5B1 /* AddToPlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD9429C23C7B82700D7C5B1 /* AddToPlaylistViewController.swift */; };
+		1BD9429F23C89AE500D7C5B1 /* arianagrande_god_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1BD9429E23C89AE500D7C5B1 /* arianagrande_god_video.mp4 */; };
+		1BD942CD23C89B8800D7C5B1 /* circles_postmalone_lyrics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942A023C89B8500D7C5B1 /* circles_postmalone_lyrics.txt */; };
+		1BD942CE23C89B8800D7C5B1 /* coldplay_hymnfortheweekend_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942A123C89B8500D7C5B1 /* coldplay_hymnfortheweekend_video.mp4 */; };
+		1BD942CF23C89B8800D7C5B1 /* olivierfrancis_aeou_lyrics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942A223C89B8500D7C5B1 /* olivierfrancis_aeou_lyrics.txt */; };
+		1BD942D023C89B8800D7C5B1 /* linkinpark_onemoreligth_lyrics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942A323C89B8500D7C5B1 /* linkinpark_onemoreligth_lyrics.txt */; };
+		1BD942D123C89B8800D7C5B1 /* coldplay_askyfullofstars_lyrics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942A423C89B8500D7C5B1 /* coldplay_askyfullofstars_lyrics.txt */; };
+		1BD942D223C89B8800D7C5B1 /* oliver_aeou_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942A523C89B8500D7C5B1 /* oliver_aeou_video.mp4 */; };
+		1BD942D423C89B8800D7C5B1 /* arianagrande_sevenrings_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942A723C89B8500D7C5B1 /* arianagrande_sevenrings_video.mp4 */; };
+		1BD942D523C89B8800D7C5B1 /* coldplay_adventureofalifetime_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942A823C89B8600D7C5B1 /* coldplay_adventureofalifetime_video.mp4 */; };
+		1BD942D623C89B8800D7C5B1 /* arianagrande_thank_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942A923C89B8600D7C5B1 /* arianagrande_thank_video.mp4 */; };
+		1BD942D823C89B8800D7C5B1 /* linkinpark_bio.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942AB23C89B8600D7C5B1 /* linkinpark_bio.txt */; };
+		1BD942D923C89B8800D7C5B1 /* postmalone_psycho_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942AC23C89B8600D7C5B1 /* postmalone_psycho_video.mp4 */; };
+		1BD942DA23C89B8800D7C5B1 /* linkinpark_newdivide_lyrics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942AD23C89B8600D7C5B1 /* linkinpark_newdivide_lyrics.txt */; };
+		1BD942DB23C89B8800D7C5B1 /* linkinpark_powerless_lyrics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942AE23C89B8600D7C5B1 /* linkinpark_powerless_lyrics.txt */; };
+		1BD942DC23C89B8800D7C5B1 /* linkinpark_powerless_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942AF23C89B8600D7C5B1 /* linkinpark_powerless_video.mp4 */; };
+		1BD942DD23C89B8800D7C5B1 /* coldplay_hymnfortheweekend_lyrics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942B023C89B8600D7C5B1 /* coldplay_hymnfortheweekend_lyrics.txt */; };
+		1BD942DE23C89B8800D7C5B1 /* coldplay_bio.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942B123C89B8600D7C5B1 /* coldplay_bio.txt */; };
+		1BD942DF23C89B8800D7C5B1 /* olivierfrancis_gemini_lyrics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942B223C89B8600D7C5B1 /* olivierfrancis_gemini_lyrics.txt */; };
+		1BD942E023C89B8800D7C5B1 /* linkinpark_newdivide_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942B323C89B8600D7C5B1 /* linkinpark_newdivide_video.mp4 */; };
+		1BD942E123C89B8800D7C5B1 /* postmalone_bio.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942B423C89B8600D7C5B1 /* postmalone_bio.txt */; };
+		1BD942E223C89B8800D7C5B1 /* linkinpark_lostintheecho_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942B523C89B8700D7C5B1 /* linkinpark_lostintheecho_video.mp4 */; };
+		1BD942E323C89B8800D7C5B1 /* linkinpark_lostintheecho_lyrics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942B623C89B8700D7C5B1 /* linkinpark_lostintheecho_lyrics.txt */; };
+		1BD942E423C89B8800D7C5B1 /* postmalone_circles_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942B723C89B8700D7C5B1 /* postmalone_circles_video.mp4 */; };
+		1BD942E523C89B8800D7C5B1 /* coldplay_askyfullofstars_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942B823C89B8700D7C5B1 /* coldplay_askyfullofstars_video.mp4 */; };
+		1BD942E623C89B8800D7C5B1 /* coldplay_thescientist_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942B923C89B8700D7C5B1 /* coldplay_thescientist_video.mp4 */; };
+		1BD942E723C89B8800D7C5B1 /* linkinpark_catalyst_lyrics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942BA23C89B8700D7C5B1 /* linkinpark_catalyst_lyrics.txt */; };
+		1BD942E823C89B8800D7C5B1 /* godwoman_ariana_lyrics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942BB23C89B8700D7C5B1 /* godwoman_ariana_lyrics.txt */; };
+		1BD942E923C89B8800D7C5B1 /* linkinpark_onemoreligth_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942BC23C89B8700D7C5B1 /* linkinpark_onemoreligth_video.mp4 */; };
+		1BD942EA23C89B8800D7C5B1 /* mamahe_vegedream_lyrics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942BD23C89B8700D7C5B1 /* mamahe_vegedream_lyrics.txt */; };
+		1BD942EB23C89B8800D7C5B1 /* coldplay_adventureofalifetime_lyrics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942BE23C89B8700D7C5B1 /* coldplay_adventureofalifetime_lyrics.txt */; };
+		1BD942ED23C89B8800D7C5B1 /* notears_ariana_lyrics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942C023C89B8700D7C5B1 /* notears_ariana_lyrics.txt */; };
+		1BD942EE23C89B8800D7C5B1 /* oliver_antigrav_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942C123C89B8700D7C5B1 /* oliver_antigrav_video.mp4 */; };
+		1BD942EF23C89B8800D7C5B1 /* olivierfrancis_bio.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942C223C89B8700D7C5B1 /* olivierfrancis_bio.txt */; };
+		1BD942F023C89B8800D7C5B1 /* coldplay_thescientist_lyrics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942C323C89B8800D7C5B1 /* coldplay_thescientist_lyrics.txt */; };
+		1BD942F123C89B8800D7C5B1 /* marchanddesable_vegedream_lyrics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942C423C89B8800D7C5B1 /* marchanddesable_vegedream_lyrics.txt */; };
+		1BD942F223C89B8800D7C5B1 /* postmalone_rockstar_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942C523C89B8800D7C5B1 /* postmalone_rockstar_video.mp4 */; };
+		1BD942F323C89B8800D7C5B1 /* rockstar_postmalone_lyrics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942C623C89B8800D7C5B1 /* rockstar_postmalone_lyrics.txt */; };
+		1BD942F423C89B8800D7C5B1 /* thanku_ariana_lyrics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942C723C89B8800D7C5B1 /* thanku_ariana_lyrics.txt */; };
+		1BD942F523C89B8800D7C5B1 /* oliver_gemini_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942C823C89B8800D7C5B1 /* oliver_gemini_video.mp4 */; };
+		1BD942F623C89B8800D7C5B1 /* linkinpark_catalyst_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942C923C89B8800D7C5B1 /* linkinpark_catalyst_video.mp4 */; };
+		1BD942F723C89B8800D7C5B1 /* psycho_postmalone_lyrics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942CA23C89B8800D7C5B1 /* psycho_postmalone_lyrics.txt */; };
+		1BD942F823C89B8800D7C5B1 /* olivierfrancis_antigrav_lyrics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942CB23C89B8800D7C5B1 /* olivierfrancis_antigrav_lyrics.txt */; };
+		1BD942F923C89B8800D7C5B1 /* sunflower_postmalone_lyrics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942CC23C89B8800D7C5B1 /* sunflower_postmalone_lyrics.txt */; };
+		1BD942FF23C89D0000D7C5B1 /* sevenrings_ariana_lyrics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BD942FE23C89D0000D7C5B1 /* sevenrings_ariana_lyrics.txt */; };
+		1BD9430623C917A000D7C5B1 /* vegedream_marchand_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1BD9430423C917A000D7C5B1 /* vegedream_marchand_video.mp4 */; };
+		1BD9430723C917A000D7C5B1 /* vegedream_mamahe_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1BD9430523C917A000D7C5B1 /* vegedream_mamahe_video.mp4 */; };
+		1BFE3AEC23AB88C60030EEAE /* AppCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFE3AEB23AB88C60030EEAE /* AppCategory.swift */; };
+		1BFE3AEE23AC09E50030EEAE /* Prepopulate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFE3AED23AC09E50030EEAE /* Prepopulate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B0002F2239FC33C0040BF58 /* ProjetIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjetIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0002F5239FC33C0040BF58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B0002F7239FC33C0040BF58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1B0002F9239FC33C0040BF58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B0002FC239FC33C0040BF58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B0002FF239FC33C0040BF58 /* ProjetIOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProjetIOS.xcdatamodel; sourceTree = "<group>"; };
+		1B000301239FC3400040BF58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B000304239FC3400040BF58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B000306239FC3400040BF58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B00030D239FD3BC0040BF58 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		1B00031723A16C3D0040BF58 /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
+		1B00031923A16CCE0040BF58 /* HomeSceneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSceneController.swift; sourceTree = "<group>"; };
+		1B00031B23A16D3D0040BF58 /* NewSceneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSceneController.swift; sourceTree = "<group>"; };
+		1B00031D23A16D520040BF58 /* SearchSceneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSceneController.swift; sourceTree = "<group>"; };
+		1B00031F23A16D630040BF58 /* ProfileSceneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSceneController.swift; sourceTree = "<group>"; };
+		1B159C1323B01CA20041A2CF /* NewCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCollectionViewController.swift; sourceTree = "<group>"; };
+		1B159C1523B0E3720041A2CF /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		1B1ACE4D23BCE78E00FA7D5F /* PopUpPlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpPlaylistViewController.swift; sourceTree = "<group>"; };
+		1B1ACE4F23BCE80D00FA7D5F /* PopUpSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpSecondViewController.swift; sourceTree = "<group>"; };
+		1B3DBA3A23BDFF4A00F3985F /* DeletePlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletePlaylistViewController.swift; sourceTree = "<group>"; };
+		1B3DBA3C23BF3B4E00F3985F /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		1B3DBA3E23BFB06600F3985F /* SelectUserPicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectUserPicViewController.swift; sourceTree = "<group>"; };
+		1B3DBA4023C1424F00F3985F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		1B6766B423A5555E00ED2BC3 /* TestCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionViewController.swift; sourceTree = "<group>"; };
+		1B6766B923A5599600ED2BC3 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		1B7E959B23A922B200773BF0 /* SettingUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingUserDefaults.swift; sourceTree = "<group>"; };
+		1B7E95A123AA1B0C00773BF0 /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		1B7E95A323AA1B3800773BF0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1B9D58B023AAB38D00274923 /* ConcertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertViewController.swift; sourceTree = "<group>"; };
+		1B9D58B223AAB39E00274923 /* PlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
+		1B9D58B623AABB0F00274923 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		1B9D58B823AABB1D00274923 /* Single.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Single.swift; sourceTree = "<group>"; };
+		1B9D58BA23AABB3200274923 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		1B9D58BC23AABBFB00274923 /* Concert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concert.swift; sourceTree = "<group>"; };
+		1BB8253A23A3D68D00B4D1D7 /* PaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		1BC437F523B62A25005ADCEA /* CollectionViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViews.swift; sourceTree = "<group>"; };
+		1BCBE11023AE9F6D007549B7 /* ArtistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistViewController.swift; sourceTree = "<group>"; };
+		1BCBE11223AE9F79007549B7 /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		1BCBE11423AE9F84007549B7 /* SingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleViewController.swift; sourceTree = "<group>"; };
+		1BD9428F23C505F900D7C5B1 /* arianagrande_notears_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = arianagrande_notears_video.mp4; sourceTree = "<group>"; };
+		1BD9429223C6072D00D7C5B1 /* arianagrande_bio.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = arianagrande_bio.txt; sourceTree = "<group>"; };
+		1BD9429623C6074900D7C5B1 /* vegedream_bio.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = vegedream_bio.txt; sourceTree = "<group>"; };
+		1BD9429823C6075400D7C5B1 /* betternowpostmalonelyrics.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = betternowpostmalonelyrics.txt; sourceTree = "<group>"; };
+		1BD9429A23C678D300D7C5B1 /* postmalone_sunflower_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = postmalone_sunflower_video.mp4; sourceTree = "<group>"; };
+		1BD9429C23C7B82700D7C5B1 /* AddToPlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToPlaylistViewController.swift; sourceTree = "<group>"; };
+		1BD9429E23C89AE500D7C5B1 /* arianagrande_god_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = arianagrande_god_video.mp4; sourceTree = "<group>"; };
+		1BD942A023C89B8500D7C5B1 /* circles_postmalone_lyrics.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = circles_postmalone_lyrics.txt; sourceTree = "<group>"; };
+		1BD942A123C89B8500D7C5B1 /* coldplay_hymnfortheweekend_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = coldplay_hymnfortheweekend_video.mp4; sourceTree = "<group>"; };
+		1BD942A223C89B8500D7C5B1 /* olivierfrancis_aeou_lyrics.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = olivierfrancis_aeou_lyrics.txt; sourceTree = "<group>"; };
+		1BD942A323C89B8500D7C5B1 /* linkinpark_onemoreligth_lyrics.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = linkinpark_onemoreligth_lyrics.txt; sourceTree = "<group>"; };
+		1BD942A423C89B8500D7C5B1 /* coldplay_askyfullofstars_lyrics.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = coldplay_askyfullofstars_lyrics.txt; sourceTree = "<group>"; };
+		1BD942A523C89B8500D7C5B1 /* oliver_aeou_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = oliver_aeou_video.mp4; sourceTree = "<group>"; };
+		1BD942A723C89B8500D7C5B1 /* arianagrande_sevenrings_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = arianagrande_sevenrings_video.mp4; sourceTree = "<group>"; };
+		1BD942A823C89B8600D7C5B1 /* coldplay_adventureofalifetime_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = coldplay_adventureofalifetime_video.mp4; sourceTree = "<group>"; };
+		1BD942A923C89B8600D7C5B1 /* arianagrande_thank_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = arianagrande_thank_video.mp4; sourceTree = "<group>"; };
+		1BD942AB23C89B8600D7C5B1 /* linkinpark_bio.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = linkinpark_bio.txt; sourceTree = "<group>"; };
+		1BD942AC23C89B8600D7C5B1 /* postmalone_psycho_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = postmalone_psycho_video.mp4; sourceTree = "<group>"; };
+		1BD942AD23C89B8600D7C5B1 /* linkinpark_newdivide_lyrics.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = linkinpark_newdivide_lyrics.txt; sourceTree = "<group>"; };
+		1BD942AE23C89B8600D7C5B1 /* linkinpark_powerless_lyrics.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = linkinpark_powerless_lyrics.txt; sourceTree = "<group>"; };
+		1BD942AF23C89B8600D7C5B1 /* linkinpark_powerless_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = linkinpark_powerless_video.mp4; sourceTree = "<group>"; };
+		1BD942B023C89B8600D7C5B1 /* coldplay_hymnfortheweekend_lyrics.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = coldplay_hymnfortheweekend_lyrics.txt; sourceTree = "<group>"; };
+		1BD942B123C89B8600D7C5B1 /* coldplay_bio.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = coldplay_bio.txt; sourceTree = "<group>"; };
+		1BD942B223C89B8600D7C5B1 /* olivierfrancis_gemini_lyrics.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = olivierfrancis_gemini_lyrics.txt; sourceTree = "<group>"; };
+		1BD942B323C89B8600D7C5B1 /* linkinpark_newdivide_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = linkinpark_newdivide_video.mp4; sourceTree = "<group>"; };
+		1BD942B423C89B8600D7C5B1 /* postmalone_bio.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = postmalone_bio.txt; path = ../../postmalone_bio.txt; sourceTree = "<group>"; };
+		1BD942B523C89B8700D7C5B1 /* linkinpark_lostintheecho_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = linkinpark_lostintheecho_video.mp4; sourceTree = "<group>"; };
+		1BD942B623C89B8700D7C5B1 /* linkinpark_lostintheecho_lyrics.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = linkinpark_lostintheecho_lyrics.txt; sourceTree = "<group>"; };
+		1BD942B723C89B8700D7C5B1 /* postmalone_circles_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = postmalone_circles_video.mp4; sourceTree = "<group>"; };
+		1BD942B823C89B8700D7C5B1 /* coldplay_askyfullofstars_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = coldplay_askyfullofstars_video.mp4; sourceTree = "<group>"; };
+		1BD942B923C89B8700D7C5B1 /* coldplay_thescientist_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = coldplay_thescientist_video.mp4; sourceTree = "<group>"; };
+		1BD942BA23C89B8700D7C5B1 /* linkinpark_catalyst_lyrics.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = linkinpark_catalyst_lyrics.txt; sourceTree = "<group>"; };
+		1BD942BB23C89B8700D7C5B1 /* godwoman_ariana_lyrics.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = godwoman_ariana_lyrics.txt; sourceTree = "<group>"; };
+		1BD942BC23C89B8700D7C5B1 /* linkinpark_onemoreligth_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = linkinpark_onemoreligth_video.mp4; sourceTree = "<group>"; };
+		1BD942BD23C89B8700D7C5B1 /* mamahe_vegedream_lyrics.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = mamahe_vegedream_lyrics.txt; sourceTree = "<group>"; };
+		1BD942BE23C89B8700D7C5B1 /* coldplay_adventureofalifetime_lyrics.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = coldplay_adventureofalifetime_lyrics.txt; sourceTree = "<group>"; };
+		1BD942C023C89B8700D7C5B1 /* notears_ariana_lyrics.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = notears_ariana_lyrics.txt; sourceTree = "<group>"; };
+		1BD942C123C89B8700D7C5B1 /* oliver_antigrav_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = oliver_antigrav_video.mp4; sourceTree = "<group>"; };
+		1BD942C223C89B8700D7C5B1 /* olivierfrancis_bio.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = olivierfrancis_bio.txt; sourceTree = "<group>"; };
+		1BD942C323C89B8800D7C5B1 /* coldplay_thescientist_lyrics.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = coldplay_thescientist_lyrics.txt; sourceTree = "<group>"; };
+		1BD942C423C89B8800D7C5B1 /* marchanddesable_vegedream_lyrics.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = marchanddesable_vegedream_lyrics.txt; sourceTree = "<group>"; };
+		1BD942C523C89B8800D7C5B1 /* postmalone_rockstar_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = postmalone_rockstar_video.mp4; sourceTree = "<group>"; };
+		1BD942C623C89B8800D7C5B1 /* rockstar_postmalone_lyrics.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = rockstar_postmalone_lyrics.txt; sourceTree = "<group>"; };
+		1BD942C723C89B8800D7C5B1 /* thanku_ariana_lyrics.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = thanku_ariana_lyrics.txt; sourceTree = "<group>"; };
+		1BD942C823C89B8800D7C5B1 /* oliver_gemini_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = oliver_gemini_video.mp4; sourceTree = "<group>"; };
+		1BD942C923C89B8800D7C5B1 /* linkinpark_catalyst_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = linkinpark_catalyst_video.mp4; sourceTree = "<group>"; };
+		1BD942CA23C89B8800D7C5B1 /* psycho_postmalone_lyrics.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = psycho_postmalone_lyrics.txt; sourceTree = "<group>"; };
+		1BD942CB23C89B8800D7C5B1 /* olivierfrancis_antigrav_lyrics.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = olivierfrancis_antigrav_lyrics.txt; sourceTree = "<group>"; };
+		1BD942CC23C89B8800D7C5B1 /* sunflower_postmalone_lyrics.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = sunflower_postmalone_lyrics.txt; sourceTree = "<group>"; };
+		1BD942FE23C89D0000D7C5B1 /* sevenrings_ariana_lyrics.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sevenrings_ariana_lyrics.txt; sourceTree = "<group>"; };
+		1BD9430423C917A000D7C5B1 /* vegedream_marchand_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vegedream_marchand_video.mp4; sourceTree = "<group>"; };
+		1BD9430523C917A000D7C5B1 /* vegedream_mamahe_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vegedream_mamahe_video.mp4; sourceTree = "<group>"; };
+		1BFE3AEB23AB88C60030EEAE /* AppCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCategory.swift; sourceTree = "<group>"; };
+		1BFE3AED23AC09E50030EEAE /* Prepopulate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prepopulate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B0002EF239FC33C0040BF58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B0002E9239FC33C0040BF58 = {
+			isa = PBXGroup;
+			children = (
+				1BD9429123C6007300D7C5B1 /* Ressources */,
+				1B0002F4239FC33C0040BF58 /* ProjetIOS */,
+				1B0002F3239FC33C0040BF58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B0002F3239FC33C0040BF58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B0002F2239FC33C0040BF58 /* ProjetIOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B0002F4239FC33C0040BF58 /* ProjetIOS */ = {
+			isa = PBXGroup;
+			children = (
+				1B7E959A23A9225600773BF0 /* Models */,
+				1B6766B623A5595D00ED2BC3 /* View */,
+				1B00030C239FC60B0040BF58 /* Controllers */,
+				1B0002F5239FC33C0040BF58 /* AppDelegate.swift */,
+				1B0002F7239FC33C0040BF58 /* SceneDelegate.swift */,
+				1B000301239FC3400040BF58 /* Assets.xcassets */,
+				1B000303239FC3400040BF58 /* LaunchScreen.storyboard */,
+				1B000306239FC3400040BF58 /* Info.plist */,
+				1B0002FE239FC33C0040BF58 /* ProjetIOS.xcdatamodeld */,
+				1B3DBA3C23BF3B4E00F3985F /* Protocol.swift */,
+			);
+			path = ProjetIOS;
+			sourceTree = "<group>";
+		};
+		1B00030C239FC60B0040BF58 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B00031B23A16D3D0040BF58 /* NewSceneController.swift */,
+				1B00031D23A16D520040BF58 /* SearchSceneController.swift */,
+				1B00031F23A16D630040BF58 /* ProfileSceneController.swift */,
+				1B0002F9239FC33C0040BF58 /* ViewController.swift */,
+				1B00031723A16C3D0040BF58 /* MyTabBarController.swift */,
+				1B00030D239FD3BC0040BF58 /* SignInViewController.swift */,
+				1B00031923A16CCE0040BF58 /* HomeSceneController.swift */,
+				1B6766B423A5555E00ED2BC3 /* TestCollectionViewController.swift */,
+				1B9D58B023AAB38D00274923 /* ConcertViewController.swift */,
+				1B9D58B223AAB39E00274923 /* PlaylistViewController.swift */,
+				1BCBE11023AE9F6D007549B7 /* ArtistViewController.swift */,
+				1BCBE11223AE9F79007549B7 /* AlbumViewController.swift */,
+				1BCBE11423AE9F84007549B7 /* SingleViewController.swift */,
+				1B159C1323B01CA20041A2CF /* NewCollectionViewController.swift */,
+				1B1ACE4D23BCE78E00FA7D5F /* PopUpPlaylistViewController.swift */,
+				1B1ACE4F23BCE80D00FA7D5F /* PopUpSecondViewController.swift */,
+				1B3DBA3A23BDFF4A00F3985F /* DeletePlaylistViewController.swift */,
+				1B3DBA3E23BFB06600F3985F /* SelectUserPicViewController.swift */,
+				1B3DBA4023C1424F00F3985F /* SearchViewController.swift */,
+				1BD9429C23C7B82700D7C5B1 /* AddToPlaylistViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1B6766B623A5595D00ED2BC3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BB8253A23A3D68D00B4D1D7 /* PaddingLabel.swift */,
+				1B0002FB239FC33C0040BF58 /* Main.storyboard */,
+				1B6766B923A5599600ED2BC3 /* CategoryCell.swift */,
+				1B159C1523B0E3720041A2CF /* MenuBar.swift */,
+				1BC437F523B62A25005ADCEA /* CollectionViews.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B7E959A23A9225600773BF0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1B7E959B23A922B200773BF0 /* SettingUserDefaults.swift */,
+				1B7E95A123AA1B0C00773BF0 /* Playlist.swift */,
+				1B7E95A323AA1B3800773BF0 /* User.swift */,
+				1B9D58B623AABB0F00274923 /* Album.swift */,
+				1B9D58B823AABB1D00274923 /* Single.swift */,
+				1B9D58BA23AABB3200274923 /* Artist.swift */,
+				1B9D58BC23AABBFB00274923 /* Concert.swift */,
+				1BFE3AEB23AB88C60030EEAE /* AppCategory.swift */,
+				1BFE3AED23AC09E50030EEAE /* Prepopulate.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1BD9429123C6007300D7C5B1 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				1BD942FD23C89BAC00D7C5B1 /* lyrics */,
+				1BD942FB23C89B9A00D7C5B1 /* bio */,
+				1BD942FA23C89B9200D7C5B1 /* video */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		1BD942FA23C89B9200D7C5B1 /* video */ = {
+			isa = PBXGroup;
+			children = (
+				1BD942A823C89B8600D7C5B1 /* coldplay_adventureofalifetime_video.mp4 */,
+				1BD942B823C89B8700D7C5B1 /* coldplay_askyfullofstars_video.mp4 */,
+				1BD942A123C89B8500D7C5B1 /* coldplay_hymnfortheweekend_video.mp4 */,
+				1BD942B923C89B8700D7C5B1 /* coldplay_thescientist_video.mp4 */,
+				1BD942C923C89B8800D7C5B1 /* linkinpark_catalyst_video.mp4 */,
+				1BD942B523C89B8700D7C5B1 /* linkinpark_lostintheecho_video.mp4 */,
+				1BD942B323C89B8600D7C5B1 /* linkinpark_newdivide_video.mp4 */,
+				1BD942BC23C89B8700D7C5B1 /* linkinpark_onemoreligth_video.mp4 */,
+				1BD942AF23C89B8600D7C5B1 /* linkinpark_powerless_video.mp4 */,
+				1BD942A523C89B8500D7C5B1 /* oliver_aeou_video.mp4 */,
+				1BD9430523C917A000D7C5B1 /* vegedream_mamahe_video.mp4 */,
+				1BD9430423C917A000D7C5B1 /* vegedream_marchand_video.mp4 */,
+				1BD942C123C89B8700D7C5B1 /* oliver_antigrav_video.mp4 */,
+				1BD942C823C89B8800D7C5B1 /* oliver_gemini_video.mp4 */,
+				1BD942B723C89B8700D7C5B1 /* postmalone_circles_video.mp4 */,
+				1BD942AC23C89B8600D7C5B1 /* postmalone_psycho_video.mp4 */,
+				1BD942C523C89B8800D7C5B1 /* postmalone_rockstar_video.mp4 */,
+				1BD9429A23C678D300D7C5B1 /* postmalone_sunflower_video.mp4 */,
+				1BD9429E23C89AE500D7C5B1 /* arianagrande_god_video.mp4 */,
+				1BD9428F23C505F900D7C5B1 /* arianagrande_notears_video.mp4 */,
+				1BD942A723C89B8500D7C5B1 /* arianagrande_sevenrings_video.mp4 */,
+				1BD942A923C89B8600D7C5B1 /* arianagrande_thank_video.mp4 */,
+			);
+			path = video;
+			sourceTree = "<group>";
+		};
+		1BD942FB23C89B9A00D7C5B1 /* bio */ = {
+			isa = PBXGroup;
+			children = (
+				1BD942B423C89B8600D7C5B1 /* postmalone_bio.txt */,
+				1BD9429623C6074900D7C5B1 /* vegedream_bio.txt */,
+				1BD942B123C89B8600D7C5B1 /* coldplay_bio.txt */,
+				1BD942AB23C89B8600D7C5B1 /* linkinpark_bio.txt */,
+				1BD942C223C89B8700D7C5B1 /* olivierfrancis_bio.txt */,
+				1BD9429223C6072D00D7C5B1 /* arianagrande_bio.txt */,
+			);
+			path = bio;
+			sourceTree = "<group>";
+		};
+		1BD942FD23C89BAC00D7C5B1 /* lyrics */ = {
+			isa = PBXGroup;
+			children = (
+				1BD9429823C6075400D7C5B1 /* betternowpostmalonelyrics.txt */,
+				1BD942A023C89B8500D7C5B1 /* circles_postmalone_lyrics.txt */,
+				1BD942BE23C89B8700D7C5B1 /* coldplay_adventureofalifetime_lyrics.txt */,
+				1BD942A423C89B8500D7C5B1 /* coldplay_askyfullofstars_lyrics.txt */,
+				1BD942B023C89B8600D7C5B1 /* coldplay_hymnfortheweekend_lyrics.txt */,
+				1BD942C323C89B8800D7C5B1 /* coldplay_thescientist_lyrics.txt */,
+				1BD942BB23C89B8700D7C5B1 /* godwoman_ariana_lyrics.txt */,
+				1BD942BA23C89B8700D7C5B1 /* linkinpark_catalyst_lyrics.txt */,
+				1BD942B623C89B8700D7C5B1 /* linkinpark_lostintheecho_lyrics.txt */,
+				1BD942AD23C89B8600D7C5B1 /* linkinpark_newdivide_lyrics.txt */,
+				1BD942A323C89B8500D7C5B1 /* linkinpark_onemoreligth_lyrics.txt */,
+				1BD942AE23C89B8600D7C5B1 /* linkinpark_powerless_lyrics.txt */,
+				1BD942BD23C89B8700D7C5B1 /* mamahe_vegedream_lyrics.txt */,
+				1BD942C423C89B8800D7C5B1 /* marchanddesable_vegedream_lyrics.txt */,
+				1BD942C023C89B8700D7C5B1 /* notears_ariana_lyrics.txt */,
+				1BD942A223C89B8500D7C5B1 /* olivierfrancis_aeou_lyrics.txt */,
+				1BD942CB23C89B8800D7C5B1 /* olivierfrancis_antigrav_lyrics.txt */,
+				1BD942B223C89B8600D7C5B1 /* olivierfrancis_gemini_lyrics.txt */,
+				1BD942CA23C89B8800D7C5B1 /* psycho_postmalone_lyrics.txt */,
+				1BD942C623C89B8800D7C5B1 /* rockstar_postmalone_lyrics.txt */,
+				1BD942FE23C89D0000D7C5B1 /* sevenrings_ariana_lyrics.txt */,
+				1BD942CC23C89B8800D7C5B1 /* sunflower_postmalone_lyrics.txt */,
+				1BD942C723C89B8800D7C5B1 /* thanku_ariana_lyrics.txt */,
+			);
+			path = lyrics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B0002F1239FC33C0040BF58 /* ProjetIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B000309239FC3400040BF58 /* Build configuration list for PBXNativeTarget "ProjetIOS" */;
+			buildPhases = (
+				1B0002EE239FC33C0040BF58 /* Sources */,
+				1B0002EF239FC33C0040BF58 /* Frameworks */,
+				1B0002F0239FC33C0040BF58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjetIOS;
+			productName = ProjetIOS;
+			productReference = 1B0002F2239FC33C0040BF58 /* ProjetIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B0002EA239FC33C0040BF58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Florian Bucheron";
+				TargetAttributes = {
+					1B0002F1239FC33C0040BF58 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1B0002ED239FC33C0040BF58 /* Build configuration list for PBXProject "ProjetIOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B0002E9239FC33C0040BF58;
+			productRefGroup = 1B0002F3239FC33C0040BF58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B0002F1239FC33C0040BF58 /* ProjetIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B0002F0239FC33C0040BF58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD9429F23C89AE500D7C5B1 /* arianagrande_god_video.mp4 in Resources */,
+				1BD9429B23C678D400D7C5B1 /* postmalone_sunflower_video.mp4 in Resources */,
+				1BD9429723C6074900D7C5B1 /* vegedream_bio.txt in Resources */,
+				1BD9429323C6072D00D7C5B1 /* arianagrande_bio.txt in Resources */,
+				1B000305239FC3400040BF58 /* LaunchScreen.storyboard in Resources */,
+				1B000302239FC3400040BF58 /* Assets.xcassets in Resources */,
+				1B0002FD239FC33C0040BF58 /* Main.storyboard in Resources */,
+				1BD942CD23C89B8800D7C5B1 /* circles_postmalone_lyrics.txt in Resources */,
+				1BD942CE23C89B8800D7C5B1 /* coldplay_hymnfortheweekend_video.mp4 in Resources */,
+				1BD942CF23C89B8800D7C5B1 /* olivierfrancis_aeou_lyrics.txt in Resources */,
+				1BD942D023C89B8800D7C5B1 /* linkinpark_onemoreligth_lyrics.txt in Resources */,
+				1BD942D123C89B8800D7C5B1 /* coldplay_askyfullofstars_lyrics.txt in Resources */,
+				1BD942FF23C89D0000D7C5B1 /* sevenrings_ariana_lyrics.txt in Resources */,
+				1BD9430623C917A000D7C5B1 /* vegedream_marchand_video.mp4 in Resources */,
+				1BD9430723C917A000D7C5B1 /* vegedream_mamahe_video.mp4 in Resources */,
+				1BD942D223C89B8800D7C5B1 /* oliver_aeou_video.mp4 in Resources */,
+				1BD942D423C89B8800D7C5B1 /* arianagrande_sevenrings_video.mp4 in Resources */,
+				1BD942D523C89B8800D7C5B1 /* coldplay_adventureofalifetime_video.mp4 in Resources */,
+				1BD942D623C89B8800D7C5B1 /* arianagrande_thank_video.mp4 in Resources */,
+				1BD942D823C89B8800D7C5B1 /* linkinpark_bio.txt in Resources */,
+				1BD942D923C89B8800D7C5B1 /* postmalone_psycho_video.mp4 in Resources */,
+				1BD942DA23C89B8800D7C5B1 /* linkinpark_newdivide_lyrics.txt in Resources */,
+				1BD942DB23C89B8800D7C5B1 /* linkinpark_powerless_lyrics.txt in Resources */,
+				1BD942DC23C89B8800D7C5B1 /* linkinpark_powerless_video.mp4 in Resources */,
+				1BD942DD23C89B8800D7C5B1 /* coldplay_hymnfortheweekend_lyrics.txt in Resources */,
+				1BD942DE23C89B8800D7C5B1 /* coldplay_bio.txt in Resources */,
+				1BD942DF23C89B8800D7C5B1 /* olivierfrancis_gemini_lyrics.txt in Resources */,
+				1BD942E023C89B8800D7C5B1 /* linkinpark_newdivide_video.mp4 in Resources */,
+				1BD942E123C89B8800D7C5B1 /* postmalone_bio.txt in Resources */,
+				1BD942E223C89B8800D7C5B1 /* linkinpark_lostintheecho_video.mp4 in Resources */,
+				1BD942E323C89B8800D7C5B1 /* linkinpark_lostintheecho_lyrics.txt in Resources */,
+				1BD942E423C89B8800D7C5B1 /* postmalone_circles_video.mp4 in Resources */,
+				1BD942E523C89B8800D7C5B1 /* coldplay_askyfullofstars_video.mp4 in Resources */,
+				1BD942E623C89B8800D7C5B1 /* coldplay_thescientist_video.mp4 in Resources */,
+				1BD942E723C89B8800D7C5B1 /* linkinpark_catalyst_lyrics.txt in Resources */,
+				1BD942E823C89B8800D7C5B1 /* godwoman_ariana_lyrics.txt in Resources */,
+				1BD942E923C89B8800D7C5B1 /* linkinpark_onemoreligth_video.mp4 in Resources */,
+				1BD942EA23C89B8800D7C5B1 /* mamahe_vegedream_lyrics.txt in Resources */,
+				1BD942EB23C89B8800D7C5B1 /* coldplay_adventureofalifetime_lyrics.txt in Resources */,
+				1BD942ED23C89B8800D7C5B1 /* notears_ariana_lyrics.txt in Resources */,
+				1BD942EE23C89B8800D7C5B1 /* oliver_antigrav_video.mp4 in Resources */,
+				1BD942EF23C89B8800D7C5B1 /* olivierfrancis_bio.txt in Resources */,
+				1BD942F023C89B8800D7C5B1 /* coldplay_thescientist_lyrics.txt in Resources */,
+				1BD942F123C89B8800D7C5B1 /* marchanddesable_vegedream_lyrics.txt in Resources */,
+				1BD942F223C89B8800D7C5B1 /* postmalone_rockstar_video.mp4 in Resources */,
+				1BD942F323C89B8800D7C5B1 /* rockstar_postmalone_lyrics.txt in Resources */,
+				1BD942F423C89B8800D7C5B1 /* thanku_ariana_lyrics.txt in Resources */,
+				1BD942F523C89B8800D7C5B1 /* oliver_gemini_video.mp4 in Resources */,
+				1BD942F623C89B8800D7C5B1 /* linkinpark_catalyst_video.mp4 in Resources */,
+				1BD942F723C89B8800D7C5B1 /* psycho_postmalone_lyrics.txt in Resources */,
+				1BD942F823C89B8800D7C5B1 /* olivierfrancis_antigrav_lyrics.txt in Resources */,
+				1BD942F923C89B8800D7C5B1 /* sunflower_postmalone_lyrics.txt in Resources */,
+				1BD9429023C505F900D7C5B1 /* arianagrande_notears_video.mp4 in Resources */,
+				1BD9429923C6075400D7C5B1 /* betternowpostmalonelyrics.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B0002EE239FC33C0040BF58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B159C1623B0E3720041A2CF /* MenuBar.swift in Sources */,
+				1B6766BA23A5599600ED2BC3 /* CategoryCell.swift in Sources */,
+				1B0002FA239FC33C0040BF58 /* ViewController.swift in Sources */,
+				1BCBE11323AE9F79007549B7 /* AlbumViewController.swift in Sources */,
+				1BC437F623B62A25005ADCEA /* CollectionViews.swift in Sources */,
+				1B00031E23A16D520040BF58 /* SearchSceneController.swift in Sources */,
+				1B000300239FC33C0040BF58 /* ProjetIOS.xcdatamodeld in Sources */,
+				1B3DBA3F23BFB06600F3985F /* SelectUserPicViewController.swift in Sources */,
+				1BCBE11123AE9F6D007549B7 /* ArtistViewController.swift in Sources */,
+				1B9D58BD23AABBFB00274923 /* Concert.swift in Sources */,
+				1B1ACE5023BCE80D00FA7D5F /* PopUpSecondViewController.swift in Sources */,
+				1BFE3AEC23AB88C60030EEAE /* AppCategory.swift in Sources */,
+				1BD9429D23C7B82700D7C5B1 /* AddToPlaylistViewController.swift in Sources */,
+				1B3DBA3D23BF3B4E00F3985F /* Protocol.swift in Sources */,
+				1B7E95A423AA1B3800773BF0 /* User.swift in Sources */,
+				1B00031A23A16CCE0040BF58 /* HomeSceneController.swift in Sources */,
+				1B6766B523A5555E00ED2BC3 /* TestCollectionViewController.swift in Sources */,
+				1B00032023A16D630040BF58 /* ProfileSceneController.swift in Sources */,
+				1B7E959C23A922B200773BF0 /* SettingUserDefaults.swift in Sources */,
+				1B9D58BB23AABB3200274923 /* Artist.swift in Sources */,
+				1B0002F6239FC33C0040BF58 /* AppDelegate.swift in Sources */,
+				1B159C1423B01CA20041A2CF /* NewCollectionViewController.swift in Sources */,
+				1B3DBA3B23BDFF4A00F3985F /* DeletePlaylistViewController.swift in Sources */,
+				1B00030E239FD3BC0040BF58 /* SignInViewController.swift in Sources */,
+				1B7E95A223AA1B0C00773BF0 /* Playlist.swift in Sources */,
+				1B1ACE4E23BCE78E00FA7D5F /* PopUpPlaylistViewController.swift in Sources */,
+				1B0002F8239FC33C0040BF58 /* SceneDelegate.swift in Sources */,
+				1B00031823A16C3D0040BF58 /* MyTabBarController.swift in Sources */,
+				1B9D58B323AAB39E00274923 /* PlaylistViewController.swift in Sources */,
+				1B00031C23A16D3D0040BF58 /* NewSceneController.swift in Sources */,
+				1BCBE11523AE9F84007549B7 /* SingleViewController.swift in Sources */,
+				1B3DBA4123C1424F00F3985F /* SearchViewController.swift in Sources */,
+				1BB8253B23A3D68D00B4D1D7 /* PaddingLabel.swift in Sources */,
+				1B9D58B923AABB1D00274923 /* Single.swift in Sources */,
+				1BFE3AEE23AC09E50030EEAE /* Prepopulate.swift in Sources */,
+				1B9D58B123AAB38D00274923 /* ConcertViewController.swift in Sources */,
+				1B9D58B723AABB0F00274923 /* Album.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1B0002FB239FC33C0040BF58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B0002FC239FC33C0040BF58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B000303239FC3400040BF58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B000304239FC3400040BF58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B000307239FC3400040BF58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B000308239FC3400040BF58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B00030A239FC3400040BF58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProjetIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.utt.if26.ProjetIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B00030B239FC3400040BF58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProjetIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.utt.if26.ProjetIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B0002ED239FC33C0040BF58 /* Build configuration list for PBXProject "ProjetIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B000307239FC3400040BF58 /* Debug */,
+				1B000308239FC3400040BF58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B000309239FC3400040BF58 /* Build configuration list for PBXNativeTarget "ProjetIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B00030A239FC3400040BF58 /* Debug */,
+				1B00030B239FC3400040BF58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1B0002FE239FC33C0040BF58 /* ProjetIOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1B0002FF239FC33C0040BF58 /* ProjetIOS.xcdatamodel */,
+			);
+			currentVersion = 1B0002FF239FC33C0040BF58 /* ProjetIOS.xcdatamodel */;
+			path = ProjetIOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1B0002EA239FC33C0040BF58 /* Project object */;
+}
