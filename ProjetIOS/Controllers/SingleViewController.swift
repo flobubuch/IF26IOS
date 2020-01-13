@@ -25,10 +25,12 @@ class SingleViewController: UIViewController {
     @IBOutlet weak var lyricsButton: UIButton!
     @IBOutlet weak var previousButton: UIButton!
     @IBOutlet weak var nextButton: UIButton!
+    @IBOutlet weak var resetButton: UIButton!
     
     var queueSingle : [Single] = []
     var videoPlayer : AVQueuePlayer?
     var tableItemPlayer : [AVPlayerItem] = []
+    var isOnReset : Bool?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,7 +40,7 @@ class SingleViewController: UIViewController {
         videoView.isHidden = true
         setupPlayer()
         setSlider()
-        
+        isOnReset = false
     }
     
     var item : Item? {
@@ -194,6 +196,15 @@ class SingleViewController: UIViewController {
             if let duration = self.videoPlayer?.currentItem?.duration {
                 let durationSeconds = CMTimeGetSeconds(duration)
                 self.slider.value = Float(seconds/durationSeconds)
+                if durationSeconds <= seconds + 3 {
+                    print(self.isOnReset!)
+                    if self.isOnReset! {
+                        print("on est en reset")
+                        self.videoPlayer?.seek(to: CMTime(seconds: 0, preferredTimescale: 1))
+                        self.resetButton.tintColor = .link
+                        self.isOnReset = false
+                    }
+                }
                 if durationSeconds <= seconds {
                     if self.queueSingle.last?.titleSingle! != self.item?.name2! {
                         self.nextMusicButtonOnClick()
@@ -210,7 +221,7 @@ class SingleViewController: UIViewController {
             if let duration = videoPlayer?.currentItem?.duration {
                 let seconds : Float64 = CMTimeGetSeconds(duration)
                 if !seconds.isNaN && !seconds.isInfinite {
-                    let secondsText = Int(seconds) % 60
+                    let secondsText = String(format: "%02d", Int(seconds) % 60)
                     let minutesText = String(format: "%02d", Int(seconds/60))
                     endLengthLabel.text = "\(minutesText):\(secondsText)"
                 }
@@ -280,6 +291,7 @@ class SingleViewController: UIViewController {
             while tableItemPlayer[indexOfNextMusic] != videoPlayer?.currentItem {
                 videoPlayer?.advanceToNextItem()
             }
+            isOnReset = false
             videoPlayer?.seek(to: CMTime(seconds: 0, preferredTimescale: 1))
         } else {
             print("premier de la track")
@@ -294,11 +306,25 @@ class SingleViewController: UIViewController {
             setItemProperties()
             videoPlayer?.advanceToNextItem()
             videoPlayer?.seek(to: CMTime(seconds: 0, preferredTimescale: 1))
+            isOnReset = false
         } else {
             print("dernier de la track")
         }
         
     }
+    @IBAction func resetButtonOnClick() {
+        if let boolOnReset = isOnReset {
+            if boolOnReset {
+                resetButton.tintColor = .link
+                isOnReset = false
+            } else {
+                resetButton.tintColor = .white
+                isOnReset = true
+            }
+        }
+    }
+    
+    
     private func createItem(single : Single) -> Item {
         let item = Item()
         item.name1 = single.artist?.name

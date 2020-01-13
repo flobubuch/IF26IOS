@@ -1189,6 +1189,9 @@
                                 <rect key="frame" x="20" y="612" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="goforward" catalog="system"/>
+                                <connections>
+                                    <action selector="resetButtonOnClick" destination="IXJ-5c-Poz" eventType="touchUpInside" id="gI1-tj-fv8"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="nameResult" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OMv-u0-zoX">
                                 <rect key="frame" x="34" y="423" width="346" height="29"/>
@@ -1239,6 +1242,7 @@
                         <outlet property="nextButton" destination="mYQ-4x-VB1" id="6Cs-6r-RhI"/>
                         <outlet property="playButton" destination="wpR-Hl-c8C" id="Spt-fm-uDF"/>
                         <outlet property="previousButton" destination="apa-qQ-n0y" id="uIa-BM-1h3"/>
+                        <outlet property="resetButton" destination="Hcq-xr-2if" id="dpR-TR-Cz7"/>
                         <outlet property="slider" destination="k8a-Hg-YXL" id="RGP-yn-GLh"/>
                         <outlet property="titleLabel" destination="OtM-Ja-ETo" id="g7J-Xw-VTw"/>
                         <outlet property="videoButton" destination="LRn-ei-bZg" id="X9R-Os-2f2"/>

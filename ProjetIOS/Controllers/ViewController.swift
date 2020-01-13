@@ -33,7 +33,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
-        
+        (UIApplication.shared.delegate as! AppDelegate).queuePlayer?.pause()
+        (UIApplication.shared.delegate as! AppDelegate).queuePlayer = nil
         cleanTextFields()
     }
     
